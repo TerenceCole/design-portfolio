@@ -12,6 +12,7 @@ html {
   --black: #2e2e2e;
   --red: #c73737;
   --green: #61e846;
+  --white: #fff;
   --text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
   --box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
   font-size: 62.5%;
@@ -67,7 +68,7 @@ a {
 
 a.button, button, input[type="button"] {
   color: white;
-  background: var(--pink);
+  background: var(--blue);
   padding: 1rem;
   border: 0;
   border: 2px solid transparent;
@@ -77,7 +78,7 @@ a.button, button, input[type="button"] {
 }
 
 :focus {
-  outline-color: var(--pink);
+  outline-color: var(--yellow);
 }
 
 fieldset {
